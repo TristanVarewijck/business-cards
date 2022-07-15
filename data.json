@@ -1,0 +1,75 @@
+[
+  {
+    "id": "Alex-Sabo",
+    "profileImg": "/public/assets/alex-prfile-pic.png",
+    "name": "Alex",
+    "lastName": "Sabo",
+    "description": "Lorem ipsum dolor sit amet, consectetur Class aptent taciti nu tur Class aptent taciti nu",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
+    "email": "asa@ancorestrategy.com",
+    "socials": [
+      {
+        "social": "LinkedIn",
+        "icon": "/public/assets/linkedInLogo.svg"
+      },
+      {
+        "social": "Instagram",
+        "icon": "/public/assets/instagramLogo.svg"
+      },
+      {
+        "social": "Facebook",
+        "icon": "/public/assets/facebookLogo.svg"
+      },
+      {
+        "social": "Twitter",
+        "icon": "/public/assets/twitterLogo.svg"
+      },
+      {
+        "social": "Medium",
+        "icon": "/public/assets/mediumLogo.svg"
+      }
+    ],
+    "companys": [
+      {
+        "name": "Ancore Strategy",
+        "logo": "/public/assets/ancoreLogo.png"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/public/assets/ancoreLogo.png"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/public/assets/ancoreLogo.png"
+      }
+    ]
+  },
+  {
+    "id": "Kateryna-Antonova",
+    "name": "Kateryna",
+    "lastName": "Antona",
+    "description": "Creative mind of ANCORE designs",
+    "about": "Generator of design ideas working in a crypto area for many years. I am passionate of mixin fine art illustratoins with business ideas",
+    "email": "ea@ancorestrategy.com",
+    "socials": [
+      {
+        "social": "Behance",
+        "icon": "/public/assets/behanceLogo.svg"
+      },
+      {
+        "social": "Facebook",
+        "icon": "/public/assets/dribbleLogo.svg"
+      }
+    ],
+    "companys": [
+      {
+        "name": "Ancore Strategy",
+        "logo": "/public/assets/ancoreLogo.png"
+      },
+      {
+        "name": "Ancore Designs",
+        "logo": "/public/assets/ancoreLogo.png"
+      }
+    ]
+  }
+]
