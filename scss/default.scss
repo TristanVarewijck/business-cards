@@ -6,7 +6,7 @@ $white: #fff;
 $black: #181818;
 $blue: #0a196e;
 $lightGray: #f0f0f0;
-$gray: #e3e3e3;
+$gray: #f8f8f8;
 $buttonShadow: 0px 1.05936px 2.11871px rgba(0, 0, 0, 0.25);
 $buttonRadius: 4.23743px;
 $font: "Montserrat", sans-serif;
@@ -23,6 +23,7 @@ $font: "Montserrat", sans-serif;
   padding: 0;
   background: none;
   border: none;
+  font-family: $font;
 }
 
 html::-webkit-scrollbar {
@@ -39,6 +40,8 @@ html {
 
     header {
       background-image: url("/assets/bg-img.png");
+      background-repeat: no-repeat;
+      background-size: cover;
 
       ul {
         @include reset-list;
@@ -48,12 +51,17 @@ html {
         height: 50px;
         padding: 0px 30px;
 
+        li:hover {
+          opacity: 100%;
+        }
+
         li {
           font-size: 10px;
           color: $white;
           opacity: 64%;
           font-weight: 700;
           text-transform: uppercase;
+          transition: 200ms ease-in-out;
 
           a {
             text-decoration: none;
@@ -158,6 +166,12 @@ html {
           display: flex;
           justify-content: center;
           align-items: center;
+
+          a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
         }
       }
     }
@@ -168,9 +182,12 @@ html {
       ul {
         @include reset-list;
 
+        li:hover .arrow {
+          animation: arrowHover 1000ms ease-in-out infinite;
+        }
+
         li {
           display: flex;
-
           align-items: center;
           border-bottom: 1px solid $lightGray;
           margin-bottom: 15px;
@@ -194,10 +211,23 @@ html {
           }
 
           .arrow {
-            margin-right: auto;
+            margin-left: auto;
           }
         }
       }
     }
+  }
+}
+
+// keyframes
+@keyframes arrowHover {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateX(-10px);
+  }
+  100% {
+    transform: translateX(0px);
   }
 }
