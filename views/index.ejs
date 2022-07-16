@@ -13,96 +13,66 @@
       <div class="card">
         <div class="card-header">
           <div class="img-container">
-            <img src="/assets/alex-profile-pic.png" alt="profile-picture" />
+            <img src="<%= member.profileImg %>" alt="profile-picture" />
           </div>
 
           <div class="name-group">
             <h1>
-              Alex <br />
-              Sabo
+              <%= member.name %> <br />
+              <%= member.lastName %>
             </h1>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur Class aptent taciti nu tur
-              Class aptent taciti nu
-            </p>
+            <p><%= member.description %></p>
           </div>
         </div>
 
         <div class="button-group">
           <button class="share">Share Contact</button>
-          <button class="e-mail">E-mail</button>
+          <button class="e-mail" href="mailto:<%= member.email %>">
+            E-mail
+          </button>
         </div>
 
         <div class="about">
           <h2>About</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis
-            ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent
-            taciti nus
-          </p>
+          <p><%= member.about %></p>
         </div>
 
         <div class="socials">
           <h2>Socials</h2>
           <ul class="socials-list">
+            <% member.socials.forEach(function(social) { %>
             <li>
-              <a href="#"
-                ><img src="/assets/linkedInLogo.svg" alt="linkedIn-logo"
+              <a href="<%= social.link %>"
+                ><img src="<%= social.icon %>" alt="<%= social.social %>-icon"
               /></a>
             </li>
-            <li>
-              <a href="#"
-                ><img src="/assets/instagramLogo.svg" alt="instagram-logo"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="/assets/facebookLogo.svg" alt="facebook-logo"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="/assets/twitterLogo.svg" alt="twitter-logo"
-              /></a>
-            </li>
-            <li>
-              <a href="#"
-                ><img src="/assets/mediumLogo.svg" alt="medium-logo"
-              /></a>
-            </li>
+            <% }); %>
           </ul>
         </div>
 
         <div class="company">
           <h2>Companys</h2>
           <ul class="company-list">
+            <% member.companys.forEach(function(company) { %>
+
             <li>
-              <div class="logo-container">
-                <img src="/assets/ancoreLogo.png" alt="company-logo" />
-              </div>
-              <h3>Ancore Strategy</h3>
-              <a href="#" class="arrow"
-                ><img src="/assets/arrow.svg" alt="arrow-icon"
-              /></a>
+              <a href="<%= company.link %>">
+                <div class="logo-container">
+                  <img
+                    src="<%= company.logo %>"
+                    alt="<%= company.name %>-logo"
+                  />
+                </div>
+                <h3><%= company.name %></h3>
+
+                <img
+                  src="/assets/icons/arrow.svg"
+                  alt="arrow-icon"
+                  class="arrow"
+                />
+              </a>
             </li>
-            <li>
-              <div class="logo-container">
-                <img src="/assets/ancoreLogo.png" alt="company-logo" />
-              </div>
-              <h3>Ancore Strategy</h3>
-              <a href="#" class="arrow"
-                ><img src="/assets/arrow.svg" alt="arrow-icon"
-              /></a>
-            </li>
-            <li>
-              <div class="logo-container">
-                <img src="/assets/ancoreLogo.png" alt="company-logo" />
-              </div>
-              <h3>Ancore Strategy</h3>
-              <a href="#" class="arrow"
-                ><img src="/assets/arrow.svg" alt="arrow-icon"
-              /></a>
-            </li>
+            <% }); %>
           </ul>
         </div>
       </div>

@@ -11,9 +11,11 @@ router.get("/:id", function (req, res, next) {
   let filteredMember = data.filter((i) => teamMember.includes(i.id));
 
   // filtered correct user
-  let myData = filteredMember[0].email;
+  let myData = filteredMember[0];
 
-  res.render("index", { data: myData });
+  console.log(myData);
+
+  res.render("index", { member: myData });
 });
 
 module.exports = router;

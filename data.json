@@ -1,7 +1,7 @@
 [
   {
     "id": "Alex-Sabo",
-    "profileImg": "/public/assets/alex-prfile-pic.png",
+    "profileImg": "/assets/profiles/alex-profile-pic.png",
     "name": "Alex",
     "lastName": "Sabo",
     "description": "Lorem ipsum dolor sit amet, consectetur Class aptent taciti nu tur Class aptent taciti nu",
@@ -10,42 +10,51 @@
     "socials": [
       {
         "social": "LinkedIn",
-        "icon": "/public/assets/linkedInLogo.svg"
+        "icon": "/assets/socials/linkedInLogo.svg",
+        "link": "#"
       },
       {
         "social": "Instagram",
-        "icon": "/public/assets/instagramLogo.svg"
+        "icon": "/assets/socials/instagramLogo.svg",
+        "link": "#"
       },
       {
         "social": "Facebook",
-        "icon": "/public/assets/facebookLogo.svg"
+        "icon": "/assets/socials/facebookLogo.svg",
+        "link": "#"
       },
       {
         "social": "Twitter",
-        "icon": "/public/assets/twitterLogo.svg"
+        "icon": "/assets/socials/twitterLogo.svg",
+        "link": "#"
       },
       {
         "social": "Medium",
-        "icon": "/public/assets/mediumLogo.svg"
+        "icon": "/assets/socials/mediumLogo.svg",
+        "link": "#"
       }
     ],
     "companys": [
       {
         "name": "Ancore Strategy",
-        "logo": "/public/assets/ancoreLogo.png"
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
       },
       {
         "name": "Ancore Strategy",
-        "logo": "/public/assets/ancoreLogo.png"
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
       },
       {
         "name": "Ancore Strategy",
-        "logo": "/public/assets/ancoreLogo.png"
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
       }
     ]
   },
   {
     "id": "Kateryna-Antonova",
+    "profileImg": "/assets/profiles/katya-profile-pic.png",
     "name": "Kateryna",
     "lastName": "Antona",
     "description": "Creative mind of ANCORE designs",
@@ -54,21 +63,25 @@
     "socials": [
       {
         "social": "Behance",
-        "icon": "/public/assets/behanceLogo.svg"
+        "icon": "/assets/socials/behanceLogo.svg",
+        "link": "#"
       },
       {
         "social": "Facebook",
-        "icon": "/public/assets/dribbleLogo.svg"
+        "icon": "/assets/socials/dribbleLogo.svg",
+        "link": "#"
       }
     ],
     "companys": [
       {
         "name": "Ancore Strategy",
-        "logo": "/public/assets/ancoreLogo.png"
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
       },
       {
         "name": "Ancore Designs",
-        "logo": "/public/assets/ancoreLogo.png"
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
       }
     ]
   }
