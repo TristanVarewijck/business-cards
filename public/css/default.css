@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html::-webkit-scrollbar {
+  display: none; }
+
+html body {
+  font-family: "Montserrat", sans-serif;
+  color: #181818;
+  background-color: #0a196e;
+  margin: 0;
+  padding: 0; }
+  html body header {
+    background-image: url("/assets/bg-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px; }
+    html body header ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 50px;
+      padding: 0px 30px; }
+      html body header ul li:hover {
+        opacity: 100%; }
+      html body header ul li {
+        font-size: 10px;
+        color: #fff;
+        opacity: 64%;
+        font-weight: 700;
+        text-transform: uppercase;
+        transition: 200ms ease-in-out; }
+        html body header ul li a {
+          text-decoration: none;
+          color: #fff; }
+      html body header ul li:last-of-type a {
+        border-bottom: 1px solid #fff; }
+  html body main {
+    background-color: #0a196e;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    html body main .card::-webkit-scrollbar {
+      display: none; }
+    html body main .card {
+      position: absolute;
+      margin-left: auto;
+      margin-right: auto;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 7%;
+      border-radius: 6px;
+      max-height: 678px;
+      max-width: 414px;
+      background: #fff;
+      overflow-y: scroll;
+      box-shadow: 0px 4.23743px 19.0684px rgba(0, 0, 0, 0.2); }
+      html body main .card h2 {
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-bottom: 10px; }
+      html body main .card .card-header {
+        display: flex;
+        align-items: center;
+        background-color: #0a196e;
+        margin-bottom: 30px;
+        position: relative; }
+        html body main .card .card-header .img-container {
+          position: relative;
+          background: green;
+          height: 100%;
+          width: 50%; }
+          html body main .card .card-header .img-container img {
+            object-fit: fill; }
+        html body main .card .card-header .name-group {
+          color: #fff;
+          padding: 0px 30px; }
+          html body main .card .card-header .name-group h1 {
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 130%;
+            text-transform: uppercase;
+            margin-bottom: 5px;
+            margin-top: 0px; }
+          html body main .card .card-header .name-group p {
+            font-size: 12.5px;
+            opacity: 87%;
+            margin: 0;
+            padding: 0;
+            list-style: none; }
+    html body main .button-group {
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 30px;
+      margin-bottom: 40px; }
+      html body main .button-group .share,
+      html body main .button-group .e-mail {
+        width: 160px;
+        height: 32px;
+        border-radius: 4.23743px;
+        font-weight: 600;
+        font-size: 14px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      html body main .button-group .share {
+        color: #fff;
+        background-color: #181818; }
+      html body main .button-group .e-mail {
+        color: #181818;
+        box-shadow: 0px 1.05936px 2.11871px rgba(0, 0, 0, 0.25); }
+    html body main .about {
+      margin-bottom: 30px;
+      padding: 0px 30px 10px 30px;
+      border-bottom: 1px solid #f0f0f0; }
+      html body main .about p {
+        margin: 0;
+        font-weight: 400;
+        font-size: 12.5px;
+        line-height: 130%;
+        opacity: 72%; }
+    html body main .socials {
+      margin-bottom: 30px;
+      padding: 0px 30px 10px 30px;
+      border-bottom: 1px solid #f0f0f0; }
+      html body main .socials ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        justify-content: space-between; }
+        html body main .socials ul li {
+          border-radius: 50%;
+          background-color: #f8f8f8;
+          width: 50px;
+          height: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          position: relative; }
+          html body main .socials ul li a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            width: 100%; }
+    html body main .company {
+      padding: 0px 30px 10px 30px; }
+      html body main .company ul {
+        margin: 0;
+        padding: 0;
+        list-style: none; }
+        html body main .company ul li:hover .arrow {
+          animation: arrowHover 1000ms ease-in-out infinite; }
+        html body main .company ul li {
+          border-bottom: 1px solid #f0f0f0;
+          margin-bottom: 15px;
+          padding-bottom: 10px;
+          width: 100%; }
+          html body main .company ul li a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: #181818; }
+            html body main .company ul li a .logo-container {
+              width: 60px;
+              height: 60px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              border: 1px solid #f8f8f8;
+              border-radius: 10px; }
+            html body main .company ul li a h3 {
+              margin-left: 20px;
+              font-size: 13.5px;
+              font-weight: 600; }
+            html body main .company ul li a .arrow {
+              margin-left: auto; }
+
+@keyframes arrowHover {
+  0% {
+    transform: translateX(0px); }
+  50% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(0px); } }
