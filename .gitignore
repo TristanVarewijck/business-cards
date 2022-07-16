@@ -123,8 +123,8 @@ dist
 .vscode-test
 
 # custom
-# public/css
-# bin/
+public/css
+bin/
 
 
 # yarn v2
