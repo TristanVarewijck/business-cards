@@ -113,6 +113,18 @@ html {
           align-items: center;
           background-color: $blue;
           margin-bottom: 30px;
+          position: relative;
+
+          .img-container {
+            position: relative;
+            background: green;
+            height: 100%;
+            width: 50%;
+
+            img {
+              object-fit: fill;
+            }
+          }
 
           .name-group {
             color: $white;
@@ -142,13 +154,18 @@ html {
         padding: 0px 30px;
         margin-bottom: 40px;
 
-        button {
-          @include reset-button;
+        .share,
+        .e-mail {
           width: 160px;
           height: 32px;
           border-radius: $buttonRadius;
           font-weight: 600;
           font-size: 14px;
+
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
         }
 
         .share {
