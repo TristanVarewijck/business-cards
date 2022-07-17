@@ -1,10 +1,10 @@
 [
   {
     "id": "Alex-Sabo",
-    "profileImg": "/assets/profiles/muhammet-profile.png",
+    "profileImg": "/assets/profiles/alex.png",
     "name": "Alex",
     "lastName": "Sabo",
-    "description": "Lorem ipsum dolor sit amet, consectetur Class aptent taciti nu tur Class aptent taciti nu",
+    "description": "Senior Partner - Managing Director ANCORE Strategy",
     "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
     "email": "asa@ancorestrategy.com",
     "socials": [
@@ -53,22 +53,37 @@
     ]
   },
   {
-    "id": "Kateryna-Antonova",
-    "profileImg": "/assets/profiles/katya-profile-pic.png",
-    "name": "Kateryna",
-    "lastName": "Antona",
-    "description": "Creative mind of ANCORE designs",
-    "about": "Generator of design ideas working in a crypto area for many years. I am passionate of mixin fine art illustratoins with business ideas",
-    "email": "ea@ancorestrategy.com",
+    "id": "Daria-Bukatova",
+    "profileImg": "/assets/profiles/daria.png",
+    "name": "Daria",
+    "lastName": "Bukatova",
+    "description": "CBDO & Partner at ANCORE Strategy",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
+    "email": "db@ancorestrategy.com",
     "socials": [
       {
-        "social": "Behance",
-        "icon": "/assets/socials/behanceLogo.svg",
+        "social": "LinkedIn",
+        "icon": "/assets/socials/linkedInLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Instagram",
+        "icon": "/assets/socials/instagramLogo.svg",
         "link": "#"
       },
       {
         "social": "Facebook",
-        "icon": "/assets/socials/dribbleLogo.svg",
+        "icon": "/assets/socials/facebookLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Twitter",
+        "icon": "/assets/socials/twitterLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Medium",
+        "icon": "/assets/socials/mediumLogo.svg",
         "link": "#"
       }
     ],
@@ -79,7 +94,171 @@
         "link": "#"
       },
       {
-        "name": "Ancore Designs",
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "id": "Pavel-Jakovlev",
+    "profileImg": "/assets/profiles/pavel.png",
+    "name": "Pavel",
+    "lastName": "Jakovlev",
+    "description": "Managing Partner at ANCORE strategy",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
+    "email": "pj@ancorestrategy.com",
+    "socials": [
+      {
+        "social": "LinkedIn",
+        "icon": "/assets/socials/linkedInLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Instagram",
+        "icon": "/assets/socials/instagramLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Facebook",
+        "icon": "/assets/socials/facebookLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Twitter",
+        "icon": "/assets/socials/twitterLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Medium",
+        "icon": "/assets/socials/mediumLogo.svg",
+        "link": "#"
+      }
+    ],
+    "companys": [
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "id": "Valentina-Coco",
+    "profileImg": "/assets/profiles/valentina.png",
+    "name": "Valentina",
+    "lastName": "Coco",
+    "description": "COO and Partner at ANCORE Strategy",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
+    "email": "vc@ancorestrategy.com",
+    "socials": [
+      {
+        "social": "LinkedIn",
+        "icon": "/assets/socials/linkedInLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Instagram",
+        "icon": "/assets/socials/instagramLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Facebook",
+        "icon": "/assets/socials/facebookLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Twitter",
+        "icon": "/assets/socials/twitterLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Medium",
+        "icon": "/assets/socials/mediumLogo.svg",
+        "link": "#"
+      }
+    ],
+    "companys": [
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      }
+    ]
+  },
+  {
+    "id": "Muhammet-Kömür",
+    "profileImg": "/assets/profiles/muhammet.png",
+    "name": "Muhammet",
+    "lastName": "Kömür",
+    "description": "Front-end Developer at ANCORE strategy",
+    "about": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ipsum porttitor, molestie tortor ut, auctor mauris. Class aptent taciti nus",
+    "email": "vc@ancorestrategy.com",
+    "socials": [
+      {
+        "social": "LinkedIn",
+        "icon": "/assets/socials/linkedInLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Instagram",
+        "icon": "/assets/socials/instagramLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Facebook",
+        "icon": "/assets/socials/facebookLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Twitter",
+        "icon": "/assets/socials/twitterLogo.svg",
+        "link": "#"
+      },
+      {
+        "social": "Medium",
+        "icon": "/assets/socials/mediumLogo.svg",
+        "link": "#"
+      }
+    ],
+    "companys": [
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
+        "logo": "/assets/companys/ancoreLogo.png",
+        "link": "#"
+      },
+      {
+        "name": "Ancore Strategy",
         "logo": "/assets/companys/ancoreLogo.png",
         "link": "#"
       }

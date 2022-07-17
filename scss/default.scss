@@ -7,6 +7,7 @@ $black: #181818;
 $blue: #0a196e;
 $lightGray: #f0f0f0;
 $gray: #f8f8f8;
+$darkGray: #e3e3e3;
 $buttonShadow: 0px 1.05936px 2.11871px rgba(0, 0, 0, 0.25);
 $buttonRadius: 4.23743px;
 $font: "Montserrat", sans-serif;
@@ -105,7 +106,7 @@ html {
           font-weight: 600;
           font-size: 16px;
           text-transform: uppercase;
-          margin-bottom: 10px;
+          margin-bottom: 15px;
         }
 
         .card-header {
@@ -131,7 +132,7 @@ html {
 
             h1 {
               font-weight: 600;
-              font-size: 20px;
+              font-size: 21.5px;
               line-height: 130%;
               text-transform: uppercase;
               margin-bottom: 5px;
@@ -139,8 +140,9 @@ html {
             }
 
             p {
-              font-size: 12.5px;
+              font-size: 13px;
               opacity: 87%;
+              line-height: 145%;
               @include reset-list;
             }
           }
@@ -250,7 +252,7 @@ html {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border: 1px solid $gray;
+                border: 1px solid $darkGray;
                 border-radius: 10px;
               }
 
