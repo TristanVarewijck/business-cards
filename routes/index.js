@@ -13,8 +13,6 @@ router.get("/:id", function (req, res, next) {
   // filtered correct user
   let myData = filteredMember[0];
 
-  console.log(myData);
-
   res.render("index", { member: myData });
 });
 
