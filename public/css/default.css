@@ -94,6 +94,7 @@ html body {
     html body main .button-group {
       display: flex;
       justify-content: space-between;
+      gap: 10px;
       padding: 0px 30px;
       margin-bottom: 40px; }
       html body main .button-group .share,
@@ -189,10 +190,18 @@ html body {
   100% {
     transform: translateX(0px); } }
 
-@media screen and (max-width: 1024px) {
-  html body {
-    background-color: olive; } }
+@media screen and (max-width: 414px) {
+  html body main .card {
+    border-radius: 0px;
+    overflow-y: visible;
+    max-height: 100%; }
+    html body main .card .company {
+      background: #fff; } }
 
 @media screen and (max-width: 414px) {
   html body main .card {
-    border-radius: 0px; } }
+    border-radius: 0px;
+    overflow-y: visible;
+    max-height: 100%; }
+    html body main .card .company {
+      background: #fff; } }
