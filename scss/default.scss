@@ -5,6 +5,12 @@
 $white: #fff;
 $black: #181818;
 $blue: #0a196e;
+$gradientBlue: linear-gradient(
+  206.59deg,
+  #1c2c85 7.26%,
+  #132279 18.8%,
+  #0a196e 35.31%
+);
 $lightGray: #f0f0f0;
 $gray: #f8f8f8;
 $darkGray: #e3e3e3;
@@ -136,7 +142,7 @@ html {
         .card-header {
           display: flex;
           align-items: center;
-          background-color: $blue;
+          background: $gradientBlue;
           margin-bottom: 30px;
 
           .img-container {
@@ -187,6 +193,7 @@ html {
           border-radius: $buttonRadius;
           font-weight: 600;
           font-size: 14px;
+          font-family: $font;
 
           text-decoration: none;
           display: flex;

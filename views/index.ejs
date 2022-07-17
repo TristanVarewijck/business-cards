@@ -26,7 +26,13 @@
         </div>
 
         <div class="button-group">
-          <a class="share" href="#">Share Contact</a>
+          <button
+            class="share"
+            name="http://localhost:5000/<%= member.id %>"
+            value="http://localhost:5000/<%= member.id %>"
+          >
+            Share Contact
+          </button>
           <a class="e-mail" href="mailto:<%= member.email %>"> E-mail </a>
         </div>
 

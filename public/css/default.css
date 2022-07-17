@@ -84,7 +84,7 @@ html body {
       html body main .card .card-header {
         display: flex;
         align-items: center;
-        background-color: #0a196e;
+        background: linear-gradient(206.59deg, #1c2c85 7.26%, #132279 18.8%, #0a196e 35.31%);
         margin-bottom: 30px; }
         html body main .card .card-header .img-container {
           min-width: 207px;
@@ -123,6 +123,7 @@ html body {
         border-radius: 4.23743px;
         font-weight: 600;
         font-size: 14px;
+        font-family: "Montserrat", sans-serif;
         text-decoration: none;
         display: flex;
         justify-content: center;
