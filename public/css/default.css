@@ -54,6 +54,46 @@ html body {
           cursor: pointer; }
       html body header ul li:last-of-type a {
         border-bottom: 1px solid #fff; }
+  html body main.error-content {
+    display: block;
+    color: #fff;
+    text-align: center; }
+    html body main.error-content h1 {
+      text-transform: uppercase;
+      margin-bottom: 6px;
+      margin-top: 50px;
+      font-size: 40px; }
+    html body main.error-content p {
+      font-size: 12.5px;
+      margin-top: 0px;
+      margin-bottom: 50px;
+      opacity: 87%; }
+    html body main.error-content a:hover {
+      opacity: 100%; }
+    html body main.error-content a {
+      color: #fff;
+      text-decoration: underline;
+      opacity: 64%;
+      padding: 50px;
+      transition: 200ms ease-in-out;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px; }
+    html body main.error-content div {
+      position: absolute;
+      margin: 0 auto;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin-top: 50px;
+      height: 250px;
+      width: 85%;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px; }
+      html body main.error-content div img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover; }
   html body main {
     background-color: #0a196e;
     display: flex;
@@ -127,7 +167,8 @@ html body {
         text-decoration: none;
         display: flex;
         justify-content: center;
-        align-items: center; }
+        align-items: center;
+        cursor: pointer; }
       html body main .button-group .share {
         color: #fff;
         background-color: #181818; }

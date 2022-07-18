@@ -106,6 +106,59 @@ html {
         }
       }
     }
+
+    main.error-content {
+      display: block;
+      color: $white;
+      text-align: center;
+
+      h1 {
+        text-transform: uppercase;
+        margin-bottom: 6px;
+        margin-top: 50px;
+        font-size: 40px;
+      }
+
+      p {
+        font-size: 12.5px;
+        margin-top: 0px;
+        margin-bottom: 50px;
+        opacity: 87%;
+      }
+
+      a:hover {
+        opacity: 100%;
+      }
+
+      a {
+        color: $white;
+        text-decoration: underline;
+        opacity: 64%;
+        padding: 50px;
+        transition: 200ms ease-in-out;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+      }
+
+      div {
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        margin-top: 50px;
+        height: 250px;
+        width: 85%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        img {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
     main {
       background-color: $blue;
       display: flex;
@@ -199,6 +252,7 @@ html {
           display: flex;
           justify-content: center;
           align-items: center;
+          cursor: pointer;
         }
 
         .share {
