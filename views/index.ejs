@@ -4,9 +4,18 @@
   <body>
     <header>
       <ul>
-        <li><a href="#">Covo</a></li>
-        <li><a href="#">Get your Card</a></li>
+        <li><a href="https://ancorestrategy.com/">Ancore Strategy</a></li>
+        <li><a href="mailto:tristan.varewijck@gmail.com">Get your Card</a></li>
       </ul>
+
+      <!-- background lines -->
+      <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
     </header>
 
     <main class="card-wrapper">
@@ -31,9 +40,9 @@
             name="http://localhost:5000/<%= member.id %>"
             value="http://localhost:5000/<%= member.id %>"
           >
-            Share Contact
+            Copy Contact
           </button>
-          <a class="e-mail" href="mailto:<%= member.email %>"> E-mail </a>
+          <a class="e-mail" href="mailto:<%= member.email %>">E-mail</a>
         </div>
 
         <div class="about">
@@ -82,13 +91,25 @@
       </div>
     </main>
 
-    <!-- background lines -->
-    <div class="lines">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
+    <!-- copied to clipboard pop-up -->
+    <div class="copied-message hidden">
+      <div class="copied-content-container">
+        <ul class="pop-up-nav">
+          <li>
+            <a href="ancorestrategy.com" target="_blank"
+              ><img src="/assets/companys/ancoreLogo.svg" alt="ancore-icon"
+            /></a>
+          </li>
+          <li><p>ANCORE strategy</p></li>
+        </ul>
+        <div>
+          <h4>
+            Contact-link has been Copied
+            <img src="/assets/icons/check.svg" alt="checkmark-icon" />
+          </h4>
+          <p>http://localhost:5000/<%= member.id %></p>
+        </div>
+      </div>
     </div>
   </body>
 </html>
